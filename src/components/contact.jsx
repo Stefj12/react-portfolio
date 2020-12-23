@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import imageOverlay from "../img/earth.jpg";
 
@@ -119,18 +120,18 @@ class Contact extends React.Component {
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="link"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <span className="ico-circle">
+                              {/* <span className="ico-circle">
                                 <i className="ion-social-codepen"></i>
-                              </span>
+                              </span> */}
                             </a>
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/Stefj12"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -139,9 +140,10 @@ class Contact extends React.Component {
                               </span>
                             </a>
                           </li>
+                          
                           <li>
                             <a
-                              href=""
+                              href="linkedin.com/in/stefan-johnson-b70b48148"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

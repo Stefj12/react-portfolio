@@ -18,8 +18,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  Here is a collection of my work.
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -35,10 +34,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Project 1</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                            HTML5 CSS3 Bootstrap 
                           </span>
                         </div>
                       </div>
@@ -89,18 +88,17 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-aguadeluz">
+                <a href={stock1} data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock1} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Project 2</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                            VanillaJS
+                          Express-Handlebars PaperCSS jQuery Dotenv Express Express-session Sequelize MySQL2 Nodemailer
                           </span>{" "}
                         </div>
                       </div>
@@ -151,17 +149,17 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={stock2} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock2} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Project 3</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack ReactJS
+                             CSS3 ReactJS MongoDB GoogleAPI CORS
                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
@@ -213,17 +211,17 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-medlingos">
+                <a href={stock3} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock3} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Workout Tracker</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
+                            Java jQuery CSS MySQL2 NodeJS
                           </span>
                         </div>
                       </div>
@@ -274,16 +272,16 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
+                <a href={stock4} data-lightbox="gallery-smth">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock4} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Employee Directory</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">MERN</span>
+                          <span className="w-ctegory">MySQL2 NodeJS CSS JavaScript</span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -333,17 +331,17 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-mf">
+                <a href={stock5} data-lightbox="gallery-mf">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={stock5} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Burger App</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap MERN
+                            Express-Handlebars CSS3 NodeJS MySQL2
                           </span>
                         </div>
                       </div>

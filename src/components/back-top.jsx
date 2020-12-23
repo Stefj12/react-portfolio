@@ -4,7 +4,7 @@ import '../libs/easing.js'
 
 class BackToTop extends React.Component {
     componentDidMount(){
-        $('.back-to-top').click(function(){
+        $('.back-to-top').on(function(){
             $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
             return false;
           });
@@ -21,6 +21,7 @@ class BackToTop extends React.Component {
     }
 
     render(){
+        // eslint-disable-next-line jsx-a11y/anchor-is-valid
         return <a href="#" className="back-to-top animated"><i className="fa fa-chevron-up"></i></a>;
     }
 }
