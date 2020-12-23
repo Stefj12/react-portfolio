@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * Welcome to your Workbox-powered service worker!
  *
@@ -11,18 +12,23 @@
  * See https://goo.gl/2aRDsh
  */
 
+// eslint-disable-next-line no-undef
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
+// eslint-disable-next-line no-undef
 importScripts(
-  "/react-portfolio/precache-manifest.41dc0718e624b7367a6495b0ec04b19e.js"
+  "/react-portfolio/precache-manifest.c8dded5a12b2642182fa38123eb5e18e.js"
 );
 
+// eslint-disable-next-line no-restricted-globals
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
+    // eslint-disable-next-line no-restricted-globals
     self.skipWaiting();
   }
 });
 
+// eslint-disable-next-line no-undef
 workbox.core.clientsClaim();
 
 /**
@@ -30,7 +36,10 @@ workbox.core.clientsClaim();
  * requests for URLs in the manifest.
  * See https://goo.gl/S9QRab
  */
+// eslint-disable-next-line no-restricted-globals
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
+// eslint-disable-next-line no-undef
+// eslint-disable-next-line no-restricted-globals
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/react-portfolio/index.html"), {
